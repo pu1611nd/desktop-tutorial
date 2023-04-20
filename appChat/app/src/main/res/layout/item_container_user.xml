@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textFirstChar"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_22ssp"
+            android:background="@drawable/background_user_icon"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"/>
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Nguyen Tuan"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageviewCall"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_round_call_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="#2196F3" />
+        <ImageView
+            android:id="@+id/imageViewVideoCall"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_round_videocam_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="#2196F3"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
